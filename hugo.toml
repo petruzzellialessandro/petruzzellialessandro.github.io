@@ -48,7 +48,7 @@ theme = "personal-web"
   linkedin = "https://www.linkedin.com/in/alessandro-petruzzelli-3b5b3b212/"
 
 [params.contact]
-  email = ""
+  email = "a.petruzzelli20@studenti.uniba.it"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 

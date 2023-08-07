@@ -1,12 +1,11 @@
 ---
 title: Survey overview about LLMs in Recommender Systems 
-description: This is the description of our sample project
 date: "2023-08-07"
 jobDate: 2023
 work: [LLMs, RS, Survey]
 techs: [LLMs, RS, Survey]
 thumbnail: /llms-in-recommendersystems/recllmoverview.png
-projectUrl: https://arxiv.org/pdf/2307.02046.pdf
+projectUrl: https://arxiv.org/abs/2307.02046
 projectname: Recommender Systems in the Era of Large Language Models (LLMs)
 ---
 
