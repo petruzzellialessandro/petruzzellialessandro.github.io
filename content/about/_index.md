@@ -35,7 +35,7 @@ Recommender System, Conversational Recommender, Representation Techniques
 >> Finale grade: 110/110 with honors<br>
 
 `27 Sep 2021 - 19 Jul 2023`
->> __Master Degree in Computer Science__<br>
+>> __Master Degree in Data Science__<br>
 >> University of Bari "Aldo Moro", Bari, IT<br>
 >> Thesis: Transformer-Based Conversational Recommendation based on Knowledge Graph<br>
 >> Finale grade: 110/110 with honors<br>
