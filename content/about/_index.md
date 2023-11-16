@@ -2,23 +2,21 @@
 title: Alessandro Petruzzelli
 ---
 
-A prospective PhD student in computer science.
+A PhD student in computer science.
 
 <div id="webaddress">
-    <a href="a.petruzzelli20@studenti.uniba.it">a.petruzzelli20@studenti.uniba.it</a>
+    <a href="alessandro.petruzzelli@uniba.it">alessandro.petruzzelli@uniba.it</a>
 </div>
 
 
 ## Currently
-
-Winner of the scholarship "ANALYSIS AND VALIDATION OF RECOMMENDATION METHODS AND ALGORITHMS FOR THE PERSONALIZATION OF SUGGESTIONS IN THE RETAIL SECTOR" funded by the SWAP research group of the University of Bari.
-
-Through a careful analysis of purchase data, consumer preferences, and behavioral patterns, the challenges and opportunities for improving the personalization of recommendations were identified.
-During the research process, deep learning and data analysis methodologies were applied to refine existing recommendation algorithms and develop new solutions. Thanks to these methodologies, more accurate and relevant recommendation models were created, able to provide personalized suggestions to consumers based on their specific interests and preferences.
+`1 Oct 2023 - Present`
+>> __P.hD Student in Computer Science__<br>
+>> University of Bari "Aldo Moro", Bari, IT<br>
 
 ### Research interests
 
-Recommender System, Conversational Recommender, Representation Techniques
+Recommender System, Conversational Recommender, Representation Techniques, Large Language Model
 
 ## Education
 
@@ -40,6 +38,8 @@ Recommender System, Conversational Recommender, Representation Techniques
 >> Thesis: Transformer-Based Conversational Recommendation based on Knowledge Graph<br>
 >> Finale grade: 110/110 with honors<br>
 
+
+
 ## Projects
 
 __Design and Development of a Content-based Recommender System to Support a Conversational Agent__<br>
@@ -47,6 +47,12 @@ __Design and Development of a Content-based Recommender System to Support a Conv
 
 __Transformer-Based Conversational Recommendation based on Knowledge Graph__<br>
 >>Conversational Recommender Systems (CRSs) have attracted a lot of attention in recent years for their ability to provide personalized recommendations through multi-turn interactions. This study is based on an in-depth analysis of the state-of-the-art solutions, focusing on two main areas: recommendation systems that use deep learning techniques and end-to-end conversational systems. The project described in this study falls into the second category. The proposed idea is to use a Transformer architecture to develop a CRS. By exploiting self-attention, this solution is able to learn a representation for each element to be recommended. However, the experiments conducted for this study have shown that the integration of external knowledge from a Knowledge Graph can improve the accuracy of the model if it is integrated into the early encoding layers of the architecture.
+
+`25 Feb 2023 - 30 Sep 2023`
+>> __Scholarship "ANALYSIS AND VALIDATION OF RECOMMENDATION METHODS AND ALGORITHMS FOR THE PERSONALIZATION OF SUGGESTIONS IN THE RETAIL SECTOR"__<br>
+>> University of Bari "Aldo Moro", Bari, IT<br>
+Through a careful analysis of purchase data, consumer preferences, and behavioral patterns, the challenges and opportunities for improving the personalization of recommendations were identified.
+During the research process, deep learning and data analysis methodologies were applied to refine existing recommendation algorithms and develop new solutions. Thanks to these methodologies, more accurate and relevant recommendation models were created, able to provide personalized suggestions to consumers based on their specific interests and preferences.
 
 
 

@@ -6,7 +6,7 @@ theme = "personal-web"
 
 [params.intro]
   main = "Hi, I'm Alessandro"
-  sub = "I'm a wannabe PhD Student in Computer Science"
+  sub = "I'm a PhD Student in Computer Science"
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -48,7 +48,7 @@ theme = "personal-web"
   linkedin = "https://www.linkedin.com/in/alessandro-petruzzelli-3b5b3b212/"
 
 [params.contact]
-  email = "a.petruzzelli20@studenti.uniba.it"
+  email = "alessandro.petruzzelli@uniba.it"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
