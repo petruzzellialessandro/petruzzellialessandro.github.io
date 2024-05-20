@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TraditionalRS on petruzzellialessandro</title>
+    <link>http://example.org/techs/traditionalrs/</link>
+    <description>Recent content in TraditionalRS on petruzzellialessandro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/techs/traditionalrs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M6-Rec: Generative Pretrained Language Models are Open-Ended Recommender Systems</title>
+      <link>http://example.org/extra/m6rec/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extra/m6rec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P5: Recommendation as Language Processing (RLP)</title>
+      <link>http://example.org/extra/p5/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extra/p5/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

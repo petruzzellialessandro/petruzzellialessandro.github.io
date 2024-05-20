@@ -13,7 +13,7 @@ A PhD student in computer science.
 `1 Oct 2023 - Present`
 >> __P.hD Student in Computer Science__<br>
 >> University of Bari "Aldo Moro", Bari, IT<br>
-
+>> My PhD research focuses on the intersection of large language models (LLMs), recommender systems, and conversational recommender systems. I explore how LLMs can be leveraged to enhance recommendation accuracy and personalize user experiences through natural language conversations. <br>
 ### Research interests
 
 Recommender System, Conversational Recommender, Representation Techniques, Large Language Model
@@ -37,7 +37,6 @@ Recommender System, Conversational Recommender, Representation Techniques, Large
 >> University of Bari "Aldo Moro", Bari, IT<br>
 >> Thesis: Transformer-Based Conversational Recommendation based on Knowledge Graph<br>
 >> Finale grade: 110/110 with honors<br>
-
 
 
 ## Projects

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techs on petruzzellialessandro</title>
+    <link>http://example.org/techs/</link>
+    <description>Recent content in Techs on petruzzellialessandro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/techs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ConversationalRS</title>
+      <link>http://example.org/techs/conversationalrs/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/conversationalrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FineTuning</title>
+      <link>http://example.org/techs/finetuning/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/finetuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FMFT</title>
+      <link>http://example.org/techs/fmft/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/fmft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLMs</title>
+      <link>http://example.org/techs/llms/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PEFT</title>
+      <link>http://example.org/techs/peft/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/peft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PreTraining</title>
+      <link>http://example.org/techs/pretraining/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/pretraining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RS</title>
+      <link>http://example.org/techs/rs/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/rs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>http://example.org/techs/survey/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TraditionalRS</title>
+      <link>http://example.org/techs/traditionalrs/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/techs/traditionalrs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

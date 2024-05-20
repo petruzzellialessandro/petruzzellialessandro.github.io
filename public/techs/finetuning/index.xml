@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FineTuning on petruzzellialessandro</title>
+    <link>http://example.org/techs/finetuning/</link>
+    <description>Recent content in FineTuning on petruzzellialessandro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/techs/finetuning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lora: Low-Rank Adaptation of Large Language Models</title>
+      <link>http://example.org/extra/lora/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extra/lora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RecLLM: Leveraging Large Language Models in Conversational Recommender Systems</title>
+      <link>http://example.org/extra/recllm/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extra/recllm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TALLRec: Efficient Tuning Framework to Align LLM with Recommendation</title>
+      <link>http://example.org/extra/tallrec/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/extra/tallrec/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

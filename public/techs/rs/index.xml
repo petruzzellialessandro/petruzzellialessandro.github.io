@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RS on petruzzellialessandro</title>
+    <link>http://example.org/techs/rs/</link>
+    <description>Recent content in RS on petruzzellialessandro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/techs/rs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Survey overview about LLMs in Recommender Systems</title>
+      <link>http://example.org/portfolio/llms-in-recommendersystems/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/portfolio/llms-in-recommendersystems/</guid>
+      <description>A July 2023 survey that analyzes the solutions (existing and non-existing) with which LLMs can be used to make recommendations.
+Three ways of using LLMs are distinguished:
+Pre-trained → Training an LLM on one or more recommender datasets. De facto, they are SLMs.
+Fine-tuning → Refinement of an LLM for a specific purpose. Two techniques are distinguished:
+Full-model Fine-tuning (FMFT): All model parameters are re-weighted. Lots of data and VRAM are required.</description>
+    </item>
+    
+  </channel>
+</rss>
