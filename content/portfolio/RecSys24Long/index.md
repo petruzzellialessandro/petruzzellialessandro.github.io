@@ -4,7 +4,7 @@ date: '2024-06-01'
 jobDate: 2024
 work: [RS, CRS, RECSYS, LLM, CROSSDOMAIN, CDR]
 techs: [RS, CRS, RECSYS, LLM, CROSSDOMAIN, CDR]
-thumbnail: /RecSys24Long/image.png
+thumbnail: RecSys24Long/image.png
 projectUrl: paper.pdf
 projectname: "Instructing and Prompting Large Language Models for Explainable Cross-domain Recommendations"
 ---
