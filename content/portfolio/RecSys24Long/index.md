@@ -1,6 +1,6 @@
 ---
 title: "Instructing and Prompting Large Language Models for Explainable Cross-domain Recommendations"
-date: '2024-06-01'
+date: '2024-07-01'
 jobDate: 2024
 work: [RS, CRS, RECSYS, LLM, CROSSDOMAIN, CDR]
 techs: [RS, CRS, RECSYS, LLM, CROSSDOMAIN, CDR]
