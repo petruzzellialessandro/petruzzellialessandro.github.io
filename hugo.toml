@@ -1,5 +1,5 @@
 baseURL = 'https://petruzzellialessandro.github.io'
-title = "alepetruzzelli"
+title = "Alessandro Petruzzelli"
 languageCode = 'en-us'
 theme = "hugo-coder"
 defaultContentLanguage = "en"
@@ -20,9 +20,9 @@ unsafe = true
 [params]
 author = "Alessandro Petruzzelli"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-# description = "John Doe's personal website"
-# keywords = "blog,developer,personal"
-info = ["PhD Student in AI"]
+description = "Alessandro Petruzzelli – AI researcher and PhD candidate at the University of Bari Aldo Moro, working on LLM-based recommender systems."
+keywords = "Alessandro Petruzzelli,AI,LLM,recommender systems,PhD,University of Bari"
+info = "AI Researcher · PhD Candidate in Computer Science"
 avatarURL = "https://avatars.githubusercontent.com/u/47218421?v=4"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -44,6 +44,9 @@ maxSeeAlsoItems = 5
 
 # Custom remote JS files
 customRemoteJS = []
+
+# Site-specific styles (assets/scss/custom.scss)
+customSCSS = ["scss/custom.scss"]
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -137,23 +140,39 @@ weight = 1
 url = "https://github.com/petruzzellialessandro"
 
 [[params.social]]
+name = "Google Scholar"
+icon = "fa-brands fa-google-scholar fa-2x"
+weight = 2
+url = "https://scholar.google.com/citations?user=DQYXBgQAAAAJ"
+
+[[params.social]]
+name = "ORCID"
+icon = "fa-brands fa-orcid fa-2x"
+weight = 3
+url = "https://orcid.org/0009-0008-2880-6715"
+
+[[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
 url = "https://www.linkedin.com/in/ale-petruzzelli/"
 
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 5
+url = "mailto:alessandro.petruzzelli@uniba.it"
+
 [languages.en]
 languageName = ":uk:"
+
+[languages.en.params]
+bio = "I am a PhD candidate in Computer Science (Artificial Intelligence) at the University of Bari Aldo Moro, in the SWAP research group. My research focuses on **Large Language Model-based recommender systems**: knowledge injection, user-behavior modeling and conversational AI."
 
 [[languages.en.menu.main]]
 name = "Teaching"
 weight = 2
 url = "research/teaching/"
-
-[[languages.en.menu.main]]
-name = "Passions"
-weight = 3
-url = "passions/"
 
 [[languages.en.menu.main]]
 name = "Publications"
@@ -172,16 +191,16 @@ url = "cv/"
 
 [languages.it]
 languageName = ":it:"
+languageCode = "it-it"
+
+[languages.it.params]
+info = "AI Researcher · Dottorando in Informatica"
+bio = "Sono dottorando in Informatica (Intelligenza Artificiale) presso l'Università degli Studi di Bari Aldo Moro, nel gruppo di ricerca SWAP. La mia ricerca riguarda i **sistemi di raccomandazione basati su Large Language Model**: knowledge injection, modellazione del comportamento degli utenti e AI conversazionale."
 
 [[languages.it.menu.main]]
 name = "Didattica"
 weight = 2
 url = "research/teaching/"
-
-[[languages.it.menu.main]]
-name = "Passioni"
-weight = 3
-url = "passions/"
 
 [[languages.it.menu.main]]
 name = "Pubblicazioni"

@@ -1,0 +1,20 @@
+[home_cv]
+other = "Curriculum Vitae"
+
+[home_publications]
+other = "Pubblicazioni"
+
+[pubs_loading]
+other = "Caricamento pubblicazioni…"
+
+[pubs_empty]
+other = "Nessuna pubblicazione trovata su ORCID."
+
+[pubs_error]
+other = "Impossibile caricare le pubblicazioni. Puoi trovarle sul mio"
+
+[pubs_orcid_profile]
+other = "profilo ORCID"
+
+[pubs_in]
+other = "In"

@@ -1,28 +1,24 @@
 ---
 title: "Didattica"
+description: "Lezioni e materiale didattico"
 ---
 
+Le slide delle lezioni e dei seminari che ho tenuto in corsi universitari e percorsi di formazione professionale.
 
 ## Master in Generative AI (2026)
 
-### Accesso a conoscenza esterna tramite RAG
-*   **Descrizione:** Lezione sull'accesso a conoscenza esterna tramite RAG coprendo tecniche di chunking, embedding, indexing e valutazione.
-*   **Lingua:** Italiano
-*   [Scarica le slide](slides/RAG.pdf)
+{{< lecture title="Accesso a conoscenza esterna tramite RAG" lang="Italiano" slides="RAG.pdf" label="Scarica le slide" >}}
+Lezione sull'accesso a conoscenza esterna tramite Retrieval-Augmented Generation (RAG): tecniche di chunking, embedding, indicizzazione e valutazione.
+{{< /lecture >}}
 
-## Semantics in Intelligent Information Access (2024-2025)
+## Semantics in Intelligent Information Access (2024–2025)
 
-### Large Language Models for Recommender Systems
-*   **Descrizione:** Panoramica sull'utilizzo dei Large Language Models nei Sistemi di Raccomandazione.
-*   **Lingua:** Inglese
-*   [Scarica le slide](slides/LLMRS.pdf)
+{{< lecture title="Large Language Models for Recommender Systems" lang="Inglese" slides="LLMRS.pdf" label="Scarica le slide" >}}
+Panoramica sull'utilizzo dei Large Language Model nei sistemi di raccomandazione.
+{{< /lecture >}}
 
-## Metodi per il ritrovamento dell'informazione (2024-2025)
+## Metodi per il ritrovamento dell'informazione (2024–2025)
 
-### Prompt Engineering
-*   **Descrizione:** Un'introduzione alle tecniche di prompt engineering per i Large Language Models.
-*   **Lingua:** Italiano
-*   [Scarica le slide](slides/LLMPrompting.pdf)
-
-
-
+{{< lecture title="Prompt Engineering" lang="Italiano" slides="LLMPrompting.pdf" label="Scarica le slide" >}}
+Un'introduzione alle tecniche di prompt engineering per i Large Language Model.
+{{< /lecture >}}

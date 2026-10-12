@@ -1,0 +1,13 @@
+{{- $slides := .Get "slides" -}}
+<div class="lecture">
+  <h3 class="lecture-title">{{ .Get "title" }}</h3>
+  <div class="lecture-description">{{ .Inner | markdownify }}</div>
+  <div class="lecture-meta">
+    <span class="lecture-lang"><i class="fa-solid fa-language" aria-hidden="true"></i> {{ .Get "lang" }}</span>
+    {{- with $slides }}
+    <a class="button button-small" href="{{ printf "/research/teaching/slides/%s" . }}" target="_blank" rel="noopener">
+      <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> {{ $.Get "label" | default "Slides" }}
+    </a>
+    {{- end }}
+  </div>
+</div>

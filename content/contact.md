@@ -4,10 +4,22 @@ date = "2024-01-01"
 author = "Alessandro Petruzzelli"
 +++
 
-### Institutional Email
+<div class="contact-grid">
+<div class="contact-card">
+
+### <i class="fa-solid fa-envelope" aria-hidden="true"></i> Institutional email
+
 [alessandro.petruzzelli@uniba.it](mailto:alessandro.petruzzelli@uniba.it)
 
-### Location
-You can find me at the **4th floor** of the **Department of Computer Science** of **University of Bari Aldo Moro**  
-Via Edoardo Orabona 4  
-**SWAP Research Group**
+</div>
+<div class="contact-card">
+
+### <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Where to find me
+
+**SWAP Research Group**  
+Department of Computer Science, 4th floor  
+University of Bari Aldo Moro  
+Via Edoardo Orabona 4, Bari
+
+</div>
+</div>

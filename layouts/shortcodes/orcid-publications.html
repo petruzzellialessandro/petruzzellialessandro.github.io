@@ -1,0 +1,106 @@
+{{- $orcid := .Get "id" -}}
+<div id="publications-list" class="publications">
+  <p class="pub-status"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> {{ i18n "pubs_loading" }}</p>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const orcidId = {{ $orcid }};
+    const strings = {
+      empty: {{ i18n "pubs_empty" }},
+      error: {{ i18n "pubs_error" }},
+      profile: {{ i18n "pubs_orcid_profile" }},
+      inVenue: {{ i18n "pubs_in" }},
+    };
+    const container = document.getElementById("publications-list");
+
+    function status(text, linkToProfile) {
+      container.innerHTML = "";
+      const p = document.createElement("p");
+      p.className = "pub-status";
+      p.textContent = text + (linkToProfile ? " " : "");
+      if (linkToProfile) {
+        const a = document.createElement("a");
+        a.href = `https://orcid.org/${orcidId}`;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = strings.profile;
+        p.appendChild(a);
+        p.append(".");
+      }
+      container.appendChild(p);
+    }
+
+    fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, { headers: { Accept: "application/json" } })
+      .then((response) => {
+        if (!response.ok) throw new Error(`ORCID responded with ${response.status}`);
+        return response.json();
+      })
+      .then((data) => {
+        const groups = data.group || [];
+        if (groups.length === 0) {
+          status(strings.empty, true);
+          return;
+        }
+
+        // Parse and sort, most recent first (year -> month -> day)
+        const works = groups.map((group) => {
+          const summary = group["work-summary"][0];
+          const date = summary["publication-date"] || {};
+          const year = parseInt(date.year?.value || 0, 10);
+          const ids = summary["external-ids"]?.["external-id"] || [];
+          const doi = ids.find((id) => id["external-id-type"] === "doi");
+          return {
+            title: summary.title.title.value,
+            venue: summary["journal-title"]?.value || null,
+            year,
+            month: parseInt(date.month?.value || 0, 10),
+            day: parseInt(date.day?.value || 0, 10),
+            link: doi ? `https://doi.org/${doi["external-id-value"]}` : summary.url?.value || null,
+          };
+        });
+        works.sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
+
+        container.innerHTML = "";
+        let currentYear = null;
+        let list = null;
+        works.forEach((work) => {
+          const year = work.year > 0 ? work.year : "n.d.";
+          if (year !== currentYear) {
+            currentYear = year;
+            const heading = document.createElement("h2");
+            heading.className = "pub-year";
+            heading.textContent = year;
+            list = document.createElement("div");
+            list.className = "pub-list";
+            container.append(heading, list);
+          }
+
+          const item = document.createElement("article");
+          item.className = "pub-item";
+
+          const title = document.createElement(work.link ? "a" : "span");
+          title.className = "pub-title";
+          title.textContent = work.title;
+          if (work.link) {
+            title.href = work.link;
+            title.target = "_blank";
+            title.rel = "noopener noreferrer";
+          }
+          item.appendChild(title);
+
+          if (work.venue) {
+            const venue = document.createElement("span");
+            venue.className = "pub-venue";
+            venue.textContent = `${strings.inVenue} ${work.venue}`;
+            item.appendChild(venue);
+          }
+          list.appendChild(item);
+        });
+      })
+      .catch((error) => {
+        console.error("Error fetching ORCID data:", error);
+        status(strings.error, true);
+      });
+  });
+</script>

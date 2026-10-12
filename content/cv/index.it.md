@@ -1,16 +1,16 @@
 +++
-title = "Curriculum"
+title = "Curriculum Vitae"
 date = "2026-01-28"
-description = "My Curriculum Vitae"
+description = "Il mio Curriculum Vitae"
 author = "Alessandro Petruzzelli"
 +++
 
-Puoi consultare e scaricare il mio Curriculum Vitae dal link sottostante:
+Qui sotto puoi consultare il mio Curriculum Vitae completo, oppure scaricarlo in PDF.
 
-<div style="text-align: center; margin: 2rem 0;">
-    <a href="/cv/_Petruzzelli_CV_Resume.pdf" class="button" target="_blank">
-        <i class="fas fa-file-pdf"></i> Scarica CV (PDF)
-    </a>
+<div class="cv-actions">
+  <a href="/cv/_Petruzzelli_CV_Resume.pdf" class="button" target="_blank" rel="noopener">
+    <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Scarica CV (PDF)
+  </a>
 </div>
 
-<embed src="/cv/_Petruzzelli_CV_Resume.pdf" width="100%" height="800px" type="application/pdf" style="min-height: 80vh;">
+<embed class="cv-embed" src="/cv/_Petruzzelli_CV_Resume.pdf" type="application/pdf">
